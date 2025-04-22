@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Personal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-b3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Mi Portafolio</div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#redes-sociales">Redes sociales</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h1>¡Hola! Soy Cristian Paredes</h1>
+                <p>Estudiante de ingenieria de sistemas.</p>
+                <button class="cta-button">Ver mi trabajo</button>
+            </div>
+            <div class="hero-image">
+                <img src="tu_imagen_hero.jpg" alt="Imagen Principal">
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="about">
+            <h2>Sobre Mí</h2>
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="tu_foto_perfil.jpg" alt="Mi Foto de Perfil">
+                </div>
+                <p>Soy un joven de 20 años, Actualmente curso quinto semestre de ingenieria de sistemas en la UDI. Me gustan los videojuegos, salir con mis amigos y ultimamente jugar futbol.  </p>
+                <div class="curious-data">
+                    <h3>Datos Curiosos</h3>
+                    <ul>
+                        <li><strong>Edad:</strong> 20 años</li>
+                        <li><strong>Fecha de Nacimiento:</strong> 14 de diciembre de 2004</li>
+                        <li><strong>Lugar de Nacimiento:</strong> Barrancabermeja</li>
+                        <li><strong>Pasatiempo Favorito:</strong> Videojuegos</li>
+                        <li><strong>Película Favorita:</strong> Shutter island </li>
+                        <li><strong>Serie Favorita:</strong> Cyberpunk: edgerunners </li>
+                        <li><strong>Algo que me Apasiona:</strong> Viajar</li>
+                        </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="redes-sociales" class="social-media">
+            <h2>Sígueme en mis Redes</h2>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100081932150280" target="_blank" aria-label="Enlace a mi perfil de Facebook">
+                    <img src="FB.png" alt="Facebook" style="width: 3em; height: 3em; vertical-align: middle;">
+                </a>
+                <a href="https://www.instagram.com/cmpb00/" target="_blank" aria-label="Enlace a mi perfil de Instagram">
+                     <img src="IG.png" alt="Instagram" style="width: 3em; height: 3em; vertical-align: middle;">
+                </a>
+                </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <h2>Contáctame</h2>
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="7" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mi Portafolio Personal</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
